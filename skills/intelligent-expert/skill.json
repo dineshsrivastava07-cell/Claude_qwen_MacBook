@@ -1,0 +1,74 @@
+{
+  "name": "intelligent-expert",
+  "title": "Intelligent Expert",
+  "description": "Production-ready development skill for AI agents, chatbots, and intelligent systems. Use when building complete AI solutions including agent development, chatbot architecture, analytics systems, RPA automation, full-stack applications, database design, UI/UX implementation, LLM integration (local/cloud), RAG systems, prompt caching, context management, API, orchestration, and deployment pipelines. Covers end-to-end wiring, integration testing, and implementation with comprehensive production roadmap.",
+  "version": "1.0.0",
+  "author": "Dinesh Srivastava",
+  "commands": {
+    "architecture": {
+      "description": "Design software architectures and systems",
+      "arguments": [
+        {
+          "name": "requirements",
+          "description": "Functional and non-functional requirements",
+          "required": true
+        },
+        {
+          "name": "constraints",
+          "description": "Technical or business constraints",
+          "required": false
+        }
+      ]
+    },
+    "cybersecurity": {
+      "description": "Perform cybersecurity assessments and implementations",
+      "arguments": [
+        {
+          "name": "scope",
+          "description": "Target systems or network segments",
+          "required": true
+        },
+        {
+          "name": "type",
+          "description": "Type of assessment/implementation",
+          "required": true
+        }
+      ]
+    },
+    "best-practices": {
+      "description": "Review codebases and processes for best practices",
+      "arguments": [
+        {
+          "name": "target",
+          "description": "Path to codebase or system to review",
+          "required": true
+        },
+        {
+          "name": "review-type",
+          "description": "Type of review (code, deployment, security, operational)",
+          "required": true
+        }
+      ]
+    },
+    "optimize": {
+      "description": "Optimize system performance and scalability",
+      "arguments": [
+        {
+          "name": "metrics",
+          "description": "Current performance metrics and bottlenecks",
+          "required": true
+        },
+        {
+          "name": "goals",
+          "description": "Desired performance improvements",
+          "required": true
+        }
+      ]
+    }
+  },
+  "permissions": {
+    "filesystem": true,
+    "network": true,
+    "execute": true
+  }
+}
